@@ -1,4 +1,4 @@
-import { Expense } from "../model/snexpense.js";
+import { Expense } from "../model/Expense.js";
 import { validateExpense } from "../utils/validation.js";
 
 export const createExpense = async (req, res) => {

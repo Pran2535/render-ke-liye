@@ -1,4 +1,4 @@
-import { User } from "../model/snuser.js";
+import { User } from "../model/User.js";
 import { generateAccessToken, generateRefreshToken } from "../config/jwt.js";
 import { validateRegister } from "../utils/validation.js";
 
