@@ -4,7 +4,7 @@ import {
   login,
   logout,
   getProfile,
-} from "../controllers/Controllerauth.js";
+} from "../controllers/controllerauth.js";
 import { authenticateToken } from "../middlewares/Middlewareauth.js";
 
 const router = express.Router();

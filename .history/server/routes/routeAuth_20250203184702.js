@@ -4,8 +4,8 @@ import {
   login,
   logout,
   getProfile,
-} from "../controllers/Controllerauth.js";
-import { authenticateToken } from "../middlewares/Middlewareauth.js";
+} from "../controllers/authcontroller.js";
+import { authenticateToken } from "../middlewares/authMiddleware.js";
 
 const router = express.Router();
 
